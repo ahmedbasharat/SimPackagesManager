@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FirebasePractice</string>
+    <string name="hint1">Enter Student Name</string>
+    <string name="hint2">Enter Student Roll Number</string>
+    <string name="btn">Add Student</string>
+
+    <string name="telenor1">Telenor Packages</string>
+    <string name="zong1">Zong Packages</string>
+    <string name="ufone">Ufone Packages</string>
+    <string name="mobilink">Mobilink Packages</string>
+    <string name="warid">Warid Packages</string>
+    <string name="main2btn1">Internet Packages 3g/4g</string>
+    <string name="main2btn2">Call Packages</string>
+    <string name="main2btn3">Sms Packages</string>
+    <string name="title_activity_home1">Home1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

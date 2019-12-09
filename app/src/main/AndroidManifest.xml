@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wolfgang.firebasepractice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Telenor" />
+        <activity android:name=".FragActivity" />
+        <activity
+            android:name=".ZongActivity"
+            android:label="Zong" />
+        <activity
+            android:name=".UfoneActivity"
+            android:label="Ufone" />
+        <activity android:name=".SplashScreen"
+            android:label="MySimPackages"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeScreen" />
+        <activity
+            android:name=".Home1"
+            android:label="@string/title_activity_home1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".favActivity" android:label="Favourites" />
+        <activity android:name=".MobilinkActivity" android:label="Mobilink"/>
+        <activity android:name=".WaridActivity" android:label="Warid"/>
+        <activity android:name=".aboutUs" android:label="About Us"></activity>
+    </application>
+
+</manifest>

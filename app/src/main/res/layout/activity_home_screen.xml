@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.wolfgang.firebasepractice.HomeScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/displaysmall"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl1"
+        android:layout_marginBottom="30dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:layout_centerHorizontal="true"
+            android:text="Select your Operator"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:background="#4B0082"
+            android:text="MOBILINK"
+            android:layout_marginBottom="10sp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+
+            />
+
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:background="#32CD32"
+            android:text="Zong"
+            android:layout_marginStart="10sp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/t1"
+            />
+
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/t1"
+            android:background="#FF8C00"
+            android:text="UFONE"
+            android:layout_marginBottom="10sp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:layout_toRightOf="@id/t3"
+            android:layout_below="@id/t1"
+            android:background="#000080"
+            android:text="Warid"
+            android:layout_marginStart="10sp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/t5"
+            android:layout_width="100sp"
+            android:layout_height="40sp"
+            android:layout_below="@id/t3"
+            android:layout_centerInParent="true"
+            android:background="#87ceeb"
+            android:text="Telenor"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv3"
+        android:layout_below="@id/relativeLayout"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="22sp"
+            android:paddingTop="160sp"
+            android:layout_marginRight="15sp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+
