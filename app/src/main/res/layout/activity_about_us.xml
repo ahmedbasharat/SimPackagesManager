@@ -50,29 +50,16 @@
         android:textColor="#FFFFFF"
         android:layout_centerInParent="true"
         android:layout_marginTop="20dp"
-        android:text="-Ahmed Anoosh      +92 347 4556041"
+        android:text="-Ahmed Basharat  03224345929"
         android:textSize="15dp"
         android:textStyle="italic"
 
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv3"
-        android:id="@+id/tv4"
-        android:textColor="#FFFFFF"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20sp"
-        android:text="-Muhammad Ali      +92 308 4539496"
-        android:textSize="15dp"
-        android:textStyle="italic"
-
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv4"
         android:id="@+id/tv5"
         android:textColor="#FFFFFF"
         android:layout_alignParentLeft="true"

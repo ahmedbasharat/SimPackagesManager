@@ -70,6 +70,26 @@ public class Home1 extends AppCompatActivity
                 i = new Intent(this,Main2Activity.class);
                 startActivity(i);
                 break;
+            case R.id.t1:
+                 i = new Intent(this,MobilinkActivity.class);
+                startActivity(i);
+                break;
+
+
+            case R.id.t2:
+                i = new Intent(this,ZongActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.t3:
+                i = new Intent(this,UfoneActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.t4:
+                i = new Intent(this,WaridActivity.class);
+                startActivity(i);
+                break;
 
         }
     }
@@ -117,7 +137,15 @@ public class Home1 extends AppCompatActivity
             Intent i = new Intent(this,favActivity.class);
             startActivity(i);
 
+        } else if (id == R.id.nav_about_us) {
+
+            Intent i = new Intent(this,aboutUs.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_send) {
+
         }
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
